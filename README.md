@@ -12,6 +12,19 @@ Last verified: 2026-06-20
 - PostgreSQL-oriented persistence examples
 - OpenAPI/request-response examples where useful
 
+## What This Repo Teaches
+
+This repo is for backend system design through small runnable services.
+
+The examples should make these concerns visible:
+
+- request/response contracts and validation errors
+- transaction boundaries and persistence tradeoffs
+- where DDD vocabulary clarifies the code and where it adds ceremony
+- local dependency strategy for integration tests
+- framework differences between Spring Boot, Quarkus, Go/Gin, Phoenix, and TypeScript service code
+- operational hooks such as health checks, metrics, and structured logs
+
 ## Source Repositories
 
 - `flux-sample`
@@ -36,6 +49,40 @@ Last verified: 2026-06-20
 8. Go/Gin
 9. Phoenix architecture reading
 10. local development services such as GreenMail
+
+## Planned Structure
+
+```text
+apps/
+  spring-tasklist/
+  spring-ddd/
+  spring-webflux-r2dbc/
+  quarkus-ddd/
+  gin-api/
+  local-mail-api/
+reading/
+  phoenix-realworld/
+docs/
+  2026-learning-items.md
+  ddd-vocabulary.md
+  framework-comparison.md
+  repository-profile.md
+```
+
+## Study Loop
+
+1. start with one use case and write the API contract
+2. implement it in one framework
+3. add validation, persistence, and a testable local dependency
+4. write the DDD vocabulary used in that slice
+5. compare the same slice in another framework only after the first one is understandable
+
+## What Belongs Elsewhere
+
+- database catalog experiments belong in `learning-data-stores`
+- frontend clients belong in `learning-frontend-typescript`
+- CI, NGINX, deployment, and observability templates belong in `learning-platform-engineering`
+- security testing labs belong in `learning-security-labs`
 
 ## Repository Profile
 
