@@ -2,7 +2,15 @@
 
 Backend and DDD learning path across Spring Boot, Quarkus, Go/Gin, Phoenix, TypeScript service patterns, and local development services.
 
-Last verified: 2026-06-20
+Last verified: 2026-06-21
+
+## Development Environment
+
+If Go, Java, Node.js, or Python are missing locally, enter the Nix shell:
+
+```bash
+nix develop
+```
 
 ## Runnable Starter Project
 
@@ -18,6 +26,48 @@ To run the HTTP server:
 ```bash
 python3 projects/task-api-stdlib/app.py
 ```
+
+## Target Hands-On Projects
+
+These projects use the actual backend learning targets, not just notes:
+
+```bash
+cd projects/go-http-api
+go test ./...
+```
+
+```bash
+cd projects/java-ddd-slice
+javac *.java
+java TaskPolicyTest
+rm -f *.class
+```
+
+A stdlib DDD tactical core (Orders bounded context) that maps onto `apps/spring-ddd`:
+
+```bash
+python3 projects/ddd-tactical-core/orders.py --demo
+cd projects/ddd-tactical-core && python3 -m unittest -v
+```
+
+GraphQL without API registration:
+
+```bash
+node projects/graphql-local-api/server.test.mjs
+```
+
+Local mail API boundary:
+
+```bash
+cd projects/local-mail-api-slice
+javac *.java
+java MailApiTest
+rm -f *.class
+```
+
+Use these slices to learn handler boundaries, JSON contracts, Java domain modeling, DDD tactical patterns (entity, value object, aggregate, repository, application service, domain event), GraphQL resolver shape, local service doubles, and the code that should exist before adding Spring Boot, Quarkus, Apollo, GraphQL Yoga, or GreenMail adapters.
+
+See [docs/learning-resources.md](docs/learning-resources.md) for curated DDD and Spring Boot references.
 
 ## Baseline
 
