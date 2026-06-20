@@ -4,6 +4,21 @@ Backend and DDD learning path across Spring Boot, Quarkus, Go/Gin, Phoenix, Type
 
 Last verified: 2026-06-20
 
+## Runnable Starter Project
+
+Run the small JSON task API before moving to Spring, Quarkus, Go, or Phoenix:
+
+```bash
+python3 projects/task-api-stdlib/app.py --demo
+python3 projects/task-api-stdlib/test_domain.py
+```
+
+To run the HTTP server:
+
+```bash
+python3 projects/task-api-stdlib/app.py
+```
+
 ## Baseline
 
 - Java 21 as local default, Java 25 LTS as target where available
