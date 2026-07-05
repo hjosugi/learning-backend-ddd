@@ -152,3 +152,7 @@ docs/
 ## Repository Profile
 
 See [docs/repository-profile.md](docs/repository-profile.md) for GitHub description, topics, public safety notes, and first milestones.
+
+## License
+
+0BSD. You can use, copy, modify, and distribute this project for almost any purpose.
