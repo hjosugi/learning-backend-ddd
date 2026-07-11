@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # Java DDD Slice
 
 Runnable Java 21 domain slice for value objects, aggregate behavior, and tests without a framework.

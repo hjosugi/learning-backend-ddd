@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # GraphQL Local API
 
 Learn GraphQL request shape, resolver boundaries, and response contracts without a hosted

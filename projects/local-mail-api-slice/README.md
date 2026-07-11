@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # Local Mail API Slice
 
 Minimal Java slice for a local mail-sending API.

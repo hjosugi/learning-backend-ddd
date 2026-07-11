@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # DDD Tactical Core
 
 A small **Orders** bounded context built with **DDD tactical patterns** in pure

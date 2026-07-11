@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](learning-resources.md) | [日本語](learning-resources.ja.md)
+
 # Further learning resources
 
 Last verified: 2026-06-21
