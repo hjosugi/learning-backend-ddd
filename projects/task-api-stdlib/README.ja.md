@@ -3,21 +3,21 @@
 
 # Task API Stdlib
 
-A tiny backend project that shows request handling, domain functions, and JSON responses without framework setup.
+フレームワークのセットアップなしでリクエスト処理、ドメイン関数、JSONレスポンスを示す小さなバックエンドプロジェクト。
 
-## Run A Demo
+## デモを実行する
 
 ```bash
 python3 projects/task-api-stdlib/app.py --demo
 ```
 
-## Run The Server
+## サーバーを起動する
 
 ```bash
 python3 projects/task-api-stdlib/app.py
 ```
 
-Then call:
+次に以下を呼び出します：
 
 ```bash
 curl http://localhost:8080/healthz
@@ -25,9 +25,8 @@ curl http://localhost:8080/tasks
 curl -X POST http://localhost:8080/tasks -d '{"title":"Write validation test"}'
 ```
 
-## Test Domain Logic
+## ドメインロジックをテストする
 
 ```bash
 python3 projects/task-api-stdlib/test_domain.py
 ```
-

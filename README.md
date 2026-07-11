@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # Learning Backend DDD
 
 Backend and DDD learning path across Spring Boot, Quarkus, Go/Gin, Phoenix, TypeScript service patterns, and local development services.

@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](2026-learning-items.md) | [日本語](2026-learning-items.ja.md)
+
 # 2026 Learning Items: Backend and DDD
 
 Last verified: 2026-06-20

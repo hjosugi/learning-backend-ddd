@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](repository-profile.md) | [日本語](repository-profile.ja.md)
+
 # Repository Profile: learning-backend-ddd
 
 Last verified: 2026-06-20

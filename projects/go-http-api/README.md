@@ -1,3 +1,6 @@
+<!-- i18n: language-switcher -->
+[English](README.md) | [日本語](README.ja.md)
+
 # Go HTTP API
 
 Runnable Go backend slice for request routing, JSON contracts, validation, and unit tests.
